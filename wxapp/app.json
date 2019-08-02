@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/luo/my",
+    "pages/pick/pick",
+    "pages/video/video",
+    "components/dialog/dialog"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#000",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/luo/my",
+        "text": "api测试"
+      }
+    ],
+    "position": "top"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

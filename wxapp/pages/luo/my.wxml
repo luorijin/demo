@@ -1,0 +1,24 @@
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+
+<view bind:touchstart="showModal">
+showModal
+</view>
+<view bind:touchstart="showLoading">
+showLoading
+</view>
+<view bind:touchstart="showActionSheet">
+showActionSheet
+</view>
+<view bind:touchstart="scanCode">
+扫码
+</view>
